@@ -2,22 +2,82 @@
   "meta": {
     "title": "Daily AI News Digest",
     "model_used": "gemini-2.5-flash",
-    "last_updated_jst": "2026年09月23日 17:11",
-    "generated_at": "2026-09-23T17:11:01.946011+09:00"
+    "last_updated_jst": "2026年09月23日 21:11",
+    "generated_at": "2026-09-23T21:11:10.542195+09:00"
   },
   "current": {
     "date": "2026年09月23日",
-    "time": "17:11",
-    "iso_timestamp": "2026-09-23T17:11:01.946011+09:00",
+    "time": "21:11",
+    "iso_timestamp": "2026-09-23T21:11:10.542195+09:00",
     "articles_count": 12,
     "articles": [
       {
         "id": 1,
+        "source_name": "OpenAI News",
+        "original_title": "OpenAI extends cyber access to Ukraine for civilian defense",
+        "japanese_title": "OpenAI extends cyber access to Ukraine for civilian defense",
+        "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+        "published_at": "2026-09-23T13:00:00+00:00",
+        "category": "海外公式発表",
+        "importance": 2,
+        "summary_points": [
+          "OpenAI extends cyber access to Ukraine for civilian defense に関する最新情報です。",
+          "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 2,
+        "source_name": "The Verge (AI)",
+        "original_title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+        "japanese_title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+        "published_at": "2026-09-23T07:02:39-04:00",
+        "category": "海外テック・製品",
+        "importance": 2,
+        "summary_points": [
+          "OpenAI nabs key Patreon execs ahead of upcoming announcement に関する最新情報です。",
+          "OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subs...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 3,
+        "source_name": "GIGAZINE (AI・テクノロジー)",
+        "original_title": "ウェブカメラに向かって手を振って演奏できる「エア・テルミン」",
+        "japanese_title": "ウェブカメラに向かって手を振って演奏できる「エア・テルミン」",
+        "link": "https://gigazine.net/news/20260923-air-theremin/",
+        "published_at": "2026-09-23T20:00:00+09:00",
+        "category": "国内速報・ツール",
+        "importance": 2,
+        "summary_points": [
+          "ウェブカメラに向かって手を振って演奏できる「エア・テルミン」 に関する最新情報です。",
+          "1920年にロシアの発明家が発明した世界初の電子楽器・テルミンは、楽器本体に直接触れることなく、空間中の手の位置によって音を調節するのが特徴的です。そんなテルミンをスマートフォンやPCのカメラを使って再現したのが「Air Theremin(...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 4,
         "source_name": "Googleニュース (生成AI・人工知能)",
         "original_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - 東愛知新聞社",
         "japanese_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - 東愛知新聞社",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GamN0Q2lmcjhiTXN2TzZKX1pxdnhMNmRFZnhiZXVnUmQtRVVyYS1xRlNWeEY1bGRBWWItOGdqUzZzcnQxOEpHc2xIem85STFMLUROa1dRQ1UxZzFO?oc=5",
-        "published_at": "2026-09-23T06:47:30+00:00",
+        "published_at": "2026-09-23T09:50:04+00:00",
         "category": "国内ビジネス・速報",
         "importance": 2,
         "summary_points": [
@@ -32,7 +92,67 @@
         "read_time_seconds": 30
       },
       {
-        "id": 2,
+        "id": 5,
+        "source_name": "Googleニュース (生成AI・人工知能)",
+        "original_title": "音楽生成AI「Suno」、長期ユーザーから不満噴出 ライセンス取得済み新モデル巡り - musicman.co.jp",
+        "japanese_title": "音楽生成AI「Suno」、長期ユーザーから不満噴出 ライセンス取得済み新モデル巡り - musicman.co.jp",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qSVZJNDVDMnl3bnhoOW5UcW5uamxjUWVVS1Jrc2w0bnFtM1JBUmFvYW1VMy1yTFZOWXdfUjFYdS1COFc4ekdMejR5VHcwdFlhTnhWeA?oc=5",
+        "published_at": "2026-09-23T09:49:34+00:00",
+        "category": "国内ビジネス・速報",
+        "importance": 2,
+        "summary_points": [
+          "音楽生成AI「Suno」、長期ユーザーから不満噴出 ライセンス取得済み新モデル巡り - musicman.co.jp に関する最新情報です。",
+          "音楽生成AI「Suno」、長期ユーザーから不満噴出 ライセンス取得済み新モデル巡り musicman.co.jp...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 6,
+        "source_name": "GIGAZINE (AI・テクノロジー)",
+        "original_title": "AI従業員を雇って定型作業をお任せできる「Geta.Team」、各AI従業員に個別にメールアドレス・電話番号を割り当てできてセルフホスト可能、機能限定の無料版もあり",
+        "japanese_title": "AI従業員を雇って定型作業をお任せできる「Geta.Team」、各AI従業員に個別にメールアドレス・電話番号を割り当てできてセルフホスト可能、機能限定の無料版もあり",
+        "link": "https://gigazine.net/news/20260923-geta-team/",
+        "published_at": "2026-09-23T18:00:00+09:00",
+        "category": "国内速報・ツール",
+        "importance": 2,
+        "summary_points": [
+          "AI従業員を雇って定型作業をお任せできる「Geta.Team」、各AI従業員に個別にメールアドレス・電話番号を割り当てできてセルフホスト可能、機能限定の無料版もあり に関する最新情報です。",
+          "メールへの返信や顧客への連絡や定期的な情報収集など、毎日繰り返す作業には多くの時間がかかります。そこでAIエージェントごとに名前や役職だけでなく、メールアドレスや電話番号まで用意し、人間の従業員に近い形で任せることができるサービス「Geta...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 7,
+        "source_name": "Googleニュース (生成AI・人工知能)",
+        "original_title": "ローソン、生成AIが発案した商品3品を発売【週刊コンビニエンスストアニュース】 - ダイヤモンド・チェーンストアオンライン",
+        "japanese_title": "ローソン、生成AIが発案した商品3品を発売【週刊コンビニエンスストアニュース】 - ダイヤモンド・チェーンストアオンライン",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vdHpVZ25SVWFfcGN4M2JwUjNXdDNRMThGUXh2UExpcHV1SHBJSmExY251b2o1ak9ETHVhOVFfMFNkVE5YZm1sUkZFem1zTmdITG5R?oc=5",
+        "published_at": "2026-09-23T08:55:00+00:00",
+        "category": "国内ビジネス・速報",
+        "importance": 2,
+        "summary_points": [
+          "ローソン、生成AIが発案した商品3品を発売【週刊コンビニエンスストアニュース】 - ダイヤモンド・チェーンストアオンライン に関する最新情報です。",
+          "ローソン、生成AIが発案した商品3品を発売【週刊コンビニエンスストアニュース】 ダイヤモンド・チェーンストアオンライン...",
+          "AI技術やビジネス活用における重要な動向として注目されています。"
+        ],
+        "keywords": [
+          "AI",
+          "速報"
+        ],
+        "read_time_seconds": 30
+      },
+      {
+        "id": 8,
         "source_name": "GIGAZINE (AI・テクノロジー)",
         "original_title": "「GPT-6 Sol」と「GPT-6 Luna」が登場、API料金は前世代の半額でコスト効率が大幅に向上",
         "japanese_title": "「GPT-6 Sol」と「GPT-6 Luna」が登場、API料金は前世代の半額でコスト効率が大幅に向上",
@@ -52,7 +172,7 @@
         "read_time_seconds": 30
       },
       {
-        "id": 3,
+        "id": 9,
         "source_name": "GIGAZINE (AI・テクノロジー)",
         "original_title": "AnthropicがAIモデル「Claude Opus 5.5」を発表、Opus 5よりコスト40％減・30％以上高速化しコーディング性能も向上",
         "japanese_title": "AnthropicがAIモデル「Claude Opus 5.5」を発表、Opus 5よりコスト40％減・30％以上高速化しコーディング性能も向上",
@@ -72,7 +192,7 @@
         "read_time_seconds": 30
       },
       {
-        "id": 4,
+        "id": 10,
         "source_name": "TechCrunch AI",
         "original_title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
         "japanese_title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
@@ -92,7 +212,7 @@
         "read_time_seconds": 30
       },
       {
-        "id": 5,
+        "id": 11,
         "source_name": "Googleニュース (生成AI・人工知能)",
         "original_title": "生成AIは「学習」から「推論」へ―AI推論インフラ市場、2035年に4,500億米ドル規模へ拡大 - アットプレス",
         "japanese_title": "生成AIは「学習」から「推論」へ―AI推論インフラ市場、2035年に4,500億米ドル規模へ拡大 - アットプレス",
@@ -112,7 +232,7 @@
         "read_time_seconds": 30
       },
       {
-        "id": 6,
+        "id": 12,
         "source_name": "ITmedia AI+",
         "original_title": "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称すると表明",
         "japanese_title": "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称すると表明",
@@ -123,126 +243,6 @@
         "summary_points": [
           "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称すると表明 に関する最新情報です。",
           "トランプ米大統領は国連総会の一般討論演説で、AIの呼称を「Super Intelligence（SI）」に変更すると表明した。米国の全公文書で採用し、他国にも同調を促す。国際的なAI管理の枠組みを拒否し、地球温暖化論争になぞらえて脅威論を一...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 7,
-        "source_name": "The Verge (AI)",
-        "original_title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-        "japanese_title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-        "published_at": "2026-09-22T20:17:17-04:00",
-        "category": "海外テック・製品",
-        "importance": 2,
-        "summary_points": [
-          "OpenAI wants to consult elite mathematicians about how to not fumble again に関する最新情報です。",
-          "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathem...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 8,
-        "source_name": "ITmedia AI+",
-        "original_title": "OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開 API料金は前世代の半額に",
-        "japanese_title": "OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開 API料金は前世代の半額に",
-        "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001674/",
-        "published_at": "2026-09-23T09:12:02+09:00",
-        "category": "国内ビジネス・活用",
-        "importance": 2,
-        "summary_points": [
-          "OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開 API料金は前世代の半額に に関する最新情報です。",
-          "OpenAIは新モデル「GPT-6 Sol」と「GPT-6 Luna」を公開した。最上位のAstraと同様の手法で訓練し、前世代からAPI料金を半額に引き下げた。ChatGPTやCodexで順次提供する。アライメント改善が進む一方、思考過程...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 9,
-        "source_name": "TechCrunch AI",
-        "original_title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-        "japanese_title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-        "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-        "published_at": "2026-09-22T23:21:49+00:00",
-        "category": "海外スタートアップ・最新モデル",
-        "importance": 2,
-        "summary_points": [
-          "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4 に関する最新情報です。",
-          "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the ...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 10,
-        "source_name": "Googleニュース (生成AI・人工知能)",
-        "original_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（ITmedia ビジネスオンライン） - Yahoo!ニュース",
-        "japanese_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（ITmedia ビジネスオンライン） - Yahoo!ニュース",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mbU1kWV9kNUZqcU1pZEh1Y1N4THk5WUVDTllXb1VRdC1kY1BqdkJ6dXg1UjBUTGg0ZjZ6LW5BbWtfeWpGcGR6d2FsS0FZYUpxR2czV08tLUxucjhUS3BHSGoxakhoMlVBbDJnNThoai1hZlc3alVhamdnb2M0RkE?oc=5",
-        "published_at": "2026-09-22T23:10:08+00:00",
-        "category": "国内ビジネス・速報",
-        "importance": 2,
-        "summary_points": [
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（ITmedia ビジネスオンライン） - Yahoo!ニュース に関する最新情報です。",
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（ITmedia ビジネスオンライン） Yahoo!ニュース...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 11,
-        "source_name": "Googleニュース (生成AI・人工知能)",
-        "original_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia",
-        "japanese_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WYzFqcTRUVXhaR1RYTjlkcWxBWkUtNHUzcHJiaEpDV0NweVZTbXpZVGhZSl9iXzY2b1pkMUJTNkRXZ0NxRjlaOTk3UzBzb09UeVlqRTVKSVFDMm9pUXVQUDBLYTFNSVRVUjVEVmd6c0ZnUQ?oc=5",
-        "published_at": "2026-09-22T23:00:00+00:00",
-        "category": "国内ビジネス・速報",
-        "importance": 2,
-        "summary_points": [
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia に関する最新情報です。",
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） ITmedia...",
-          "AI技術やビジネス活用における重要な動向として注目されています。"
-        ],
-        "keywords": [
-          "AI",
-          "速報"
-        ],
-        "read_time_seconds": 30
-      },
-      {
-        "id": 12,
-        "source_name": "ITmedia AI+",
-        "original_title": "今押さえたい「半導体」の基礎知識 極小チップが“AI時代の戦略物資”になった、納得の理由",
-        "japanese_title": "今押さえたい「半導体」の基礎知識 極小チップが“AI時代の戦略物資”になった、納得の理由",
-        "link": "https://www.itmedia.co.jp/business/articles/2609/23/news004.html",
-        "published_at": "2026-09-23T08:00:00+09:00",
-        "category": "国内ビジネス・活用",
-        "importance": 2,
-        "summary_points": [
-          "今押さえたい「半導体」の基礎知識 極小チップが“AI時代の戦略物資”になった、納得の理由 に関する最新情報です。",
-          "ニュースでよく聞く「半導体」。「GPUのことね」「AI時代に重要なんでしょ」という認識はあっても、その本質を理解できていますか？ 半導体が重要視される理由を基礎から解説します。...",
           "AI技術やビジネス活用における重要な動向として注目されています。"
         ],
         "keywords": [
