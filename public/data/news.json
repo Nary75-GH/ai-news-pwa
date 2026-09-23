@@ -2,27 +2,27 @@
   "meta": {
     "title": "Daily AI News Digest",
     "model_used": "gemini-2.5-flash",
-    "last_updated_jst": "2026年09月23日 16:46",
-    "generated_at": "2026-09-23T16:46:44.443405+09:00"
+    "last_updated_jst": "2026年09月23日 17:11",
+    "generated_at": "2026-09-23T17:11:01.946011+09:00"
   },
   "current": {
     "date": "2026年09月23日",
-    "time": "16:46",
-    "iso_timestamp": "2026-09-23T16:46:44.443405+09:00",
+    "time": "17:11",
+    "iso_timestamp": "2026-09-23T17:11:01.946011+09:00",
     "articles_count": 12,
     "articles": [
       {
         "id": 1,
         "source_name": "Googleニュース (生成AI・人工知能)",
-        "original_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - higashiaichi.jp",
-        "japanese_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - higashiaichi.jp",
+        "original_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - 東愛知新聞社",
+        "japanese_title": "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - 東愛知新聞社",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GamN0Q2lmcjhiTXN2TzZKX1pxdnhMNmRFZnhiZXVnUmQtRVVyYS1xRlNWeEY1bGRBWWItOGdqUzZzcnQxOEpHc2xIem85STFMLUROa1dRQ1UxZzFO?oc=5",
         "published_at": "2026-09-23T06:47:30+00:00",
         "category": "国内ビジネス・速報",
         "importance": 2,
         "summary_points": [
-          "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - higashiaichi.jp に関する最新情報です。",
-          "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 higashiaichi.jp...",
+          "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 - 東愛知新聞社 に関する最新情報です。",
+          "本業は水質検査機関勤務 生成AI駆使し未経験でゲーム開発 イオンモール豊川で体験型サイネージ「東三河大収穫祭」放映中 東愛知新聞社...",
           "AI技術やビジネス活用における重要な動向として注目されています。"
         ],
         "keywords": [
@@ -214,15 +214,15 @@
       {
         "id": 11,
         "source_name": "Googleニュース (生成AI・人工知能)",
-        "original_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - itmedia.co.jp",
-        "japanese_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - itmedia.co.jp",
+        "original_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia",
+        "japanese_title": "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WYzFqcTRUVXhaR1RYTjlkcWxBWkUtNHUzcHJiaEpDV0NweVZTbXpZVGhZSl9iXzY2b1pkMUJTNkRXZ0NxRjlaOTk3UzBzb09UeVlqRTVKSVFDMm9pUXVQUDBLYTFNSVRVUjVEVmd6c0ZnUQ?oc=5",
         "published_at": "2026-09-22T23:00:00+00:00",
         "category": "国内ビジネス・速報",
         "importance": 2,
         "summary_points": [
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - itmedia.co.jp に関する最新情報です。",
-          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） itmedia.co.jp...",
+          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） - ITmedia に関する最新情報です。",
+          "キーワードの詰め込みはもう無意味？ 「生成AI検索最適化」で行うべき10の施策（1/3 ページ） ITmedia...",
           "AI技術やビジネス活用における重要な動向として注目されています。"
         ],
         "keywords": [
