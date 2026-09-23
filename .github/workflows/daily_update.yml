@@ -4,17 +4,16 @@ on:
   schedule:
     # 毎朝 JST 7:00 (UTC 22:00) に自動実行
     - cron: '0 22 * * *'
-  workflow_dispatch: # GitHubの画面から手動実行ボタンを押せるようにする
+  workflow_dispatch: # 手動実行ボタン
   push:
     branches:
       - main
     paths-ignore:
       - 'README.md'
-      - 'public/data/news.json'
 
-# GitHub Pages へのデプロイ権限およびコミット権限
+# GitHub Pages へのデプロイ権限
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -31,8 +30,6 @@ jobs:
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Python 3.11 をセットアップ
         uses: actions/setup-python@v5
@@ -50,20 +47,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python src/main.py
-
-      - name: 更新されたニュースデータをGitにコミット & プッシュ
-        continue-on-error: true
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/news.json
-          if git diff --staged --quiet; then
-            echo "ニュースデータに変更はありませんでした。"
-          else
-            git commit -m "chore: update daily ai news digest [skip ci]"
-            git pull --rebase origin main || true
-            git push origin main || echo "プッシュはスキップされましたがデプロイを続行します。"
-          fi
 
       - name: GitHub Pages 用にアセットをアップロード
         uses: actions/upload-pages-artifact@v3
