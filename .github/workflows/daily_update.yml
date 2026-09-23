@@ -52,6 +52,7 @@ jobs:
           python src/main.py
 
       - name: 更新されたニュースデータをGitにコミット & プッシュ
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -60,7 +61,8 @@ jobs:
             echo "ニュースデータに変更はありませんでした。"
           else
             git commit -m "chore: update daily ai news digest [skip ci]"
-            git push
+            git pull --rebase origin main || true
+            git push origin main || echo "プッシュはスキップされましたがデプロイを続行します。"
           fi
 
       - name: GitHub Pages 用にアセットをアップロード
