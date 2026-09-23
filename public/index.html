@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>AI Morning Digest | 毎朝の最新AI要約ニュース</title>
+  
+  <!-- PWA & iOS Safari 最適化メタタグ -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AI Digest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- オフライン表示インジケーター -->
+  <div id="offline-banner">⚠️ 現在オフラインです（キャッシュされた記事を表示中）</div>
+
+  <!-- 固定ヘッダー -->
+  <header>
+    <div class="app-container header-inner">
+      <div class="logo-area">
+        <img src="icons/icon-192.png" alt="AI Digest Icon" class="app-icon">
+        <div class="logo-text">
+          <h1>AI Morning Digest</h1>
+          <span class="update-time" id="update-time">読み込み中...</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="テーマ切替" title="ダーク/ライト切替">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="app-container">
+
+    <!-- iOS向け ホーム画面追加プロンプト -->
+    <div class="pwa-prompt" id="pwa-prompt">
+      <div class="pwa-prompt-text">
+        <h3>📲 ホーム画面に追加してアプリ化</h3>
+        <p>Safariの共有ボタン（<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle;"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>）から「ホーム画面に追加」すると全画面で快適に読めます。</p>
+      </div>
+      <button class="pwa-close-btn" id="pwa-close-btn" aria-label="閉じる">×</button>
+    </div>
+
+    <!-- 日付アーカイブ選択タブ -->
+    <div class="date-selector-wrap">
+      <div class="date-tabs" id="date-tabs">
+        <!-- JSで動的生成 -->
+      </div>
+    </div>
+
+    <!-- 検索 & カテゴリフィルター -->
+    <div class="controls-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="キーワードで絞り込み (例: OpenAI, 画像生成)...">
+      </div>
+      <div class="category-tags">
+        <button class="cat-chip active" data-category="all">すべて</button>
+        <button class="cat-chip" data-category="モデル">最新モデル</button>
+        <button class="cat-chip" data-category="ツール">ツール・製品</button>
+        <button class="cat-chip" data-category="ビジネス">ビジネス・提携</button>
+        <button class="cat-chip" data-category="国内">国内ニュース</button>
+        <button class="cat-chip" data-category="海外">海外トレンド</button>
+      </div>
+    </div>
+
+    <!-- ニュースカード一覧 -->
+    <section class="news-list" id="news-list">
+      <div class="loading-box">
+        <div class="spinner"></div>
+        <p>最新のAIニュースを読み込み中...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- クライアントスクリプト -->
+  <script src="app.js"></script>
+</body>
+</html>
